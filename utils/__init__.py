@@ -16,6 +16,7 @@ from . import seams
 from . import hydrate
 from . import clear_vgs
 from . import cycle
+from . import points
 from . import triangulate
 
 
@@ -28,6 +29,7 @@ registerables = (
     hydrate,
     clear_vgs,
     cycle,
+    points,
     triangulate
 )
 
